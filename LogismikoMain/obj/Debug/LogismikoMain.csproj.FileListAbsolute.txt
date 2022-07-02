@@ -1,0 +1,54 @@
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\LogismikoMain.exe.config
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\LogismikoMain.exe
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\LogismikoMain.pdb
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\Npgsql.dll
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\Npgsql.pdb
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\bin\Debug\Npgsql.xml
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Acheivements.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.DVO1.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Form1.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Help.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.LoginForm.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Properties.Resources.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Stats.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.Teachers.resources
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.exe
+C:\Users\User\Desktop\ΠΑΠΕΙ\vs c#\LogismikoMain\LogismikoMain\obj\Debug\LogismikoMain.pdb
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\LogismikoMain.exe
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.Acheivements.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.DVO1.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.Form1.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.Help.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.LoginForm.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.Properties.Resources.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.Stats.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.Teachers.resources
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.csproj.GenerateResource.cache
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.csproj.CoreCompileInputs.cache
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe.config
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.pdb
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework.SqlServer.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\Npgsql.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Buffers.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Memory.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.ValueTuple.dll
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework.SqlServer.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\Npgsql.pdb
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\Npgsql.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Buffers.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Memory.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\bin\Debug\System.ValueTuple.xml
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\LogismikoMain.csproj.CopyComplete
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.exe
+D:\OneDrive - unipi.gr\Desktop\Ekpaideftiko-Logismiko-master\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.pdb

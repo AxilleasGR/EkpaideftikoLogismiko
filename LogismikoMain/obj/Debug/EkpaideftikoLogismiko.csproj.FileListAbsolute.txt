@@ -1,0 +1,72 @@
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe.config
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.pdb
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.SqlServer.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Buffers.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Memory.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.ValueTuple.dll
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.SqlServer.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.pdb
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Buffers.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Memory.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.ValueTuple.xml
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.AssemblyReference.cache
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Acheivements.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.DVO1.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Form1.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Help.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.LoginForm.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.Properties.Resources.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Stats.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Teachers.resources
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.GenerateResource.cache
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.CoreCompileInputs.cache
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.CopyComplete
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.exe
+D:\OneDrive - unipi.gr\Desktop\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.pdb
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe.config
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.exe
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EkpaideftikoLogismiko.pdb
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.SqlServer.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Buffers.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Memory.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.ValueTuple.dll
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework.SqlServer.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\EntityFramework6.Npgsql.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.pdb
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\Npgsql.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Buffers.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Memory.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\bin\Debug\System.ValueTuple.xml
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csprojAssemblyReference.cache
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Acheivements.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.DVO1.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Form1.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Help.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.LoginForm.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.Properties.Resources.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Stats.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\LogismikoMain.Teachers.resources
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.GenerateResource.cache
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.CoreCompileInputs.cache
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.csproj.CopyComplete
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.exe
+D:\ekpaideftikoL\ekpaideftiko_logismiko\EkpaideftikoLogismiko\LogismikoMain\obj\Debug\EkpaideftikoLogismiko.pdb

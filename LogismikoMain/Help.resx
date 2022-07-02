@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label10.Text" xml:space="preserve">
+    <value>In this section we will discuss how to use our application. FIrstly we start from the button "Start"
+the user will then be in a screen where he will be prompted to choose one out of four different 
+question categories. 
+
+After that the question will appear by pressing the "Start" button and he will have  4 options
+a,b,c,d. After choosing the answer he/she have to press the submit button to check whether or not
+the answer is correct. If false an "Explanation" field exists for better understanding the answer.
+
+Finally, press the "Next " button to procceed to the next question. There are 7 questions in each 
+category and in the end when the user presses the "Back" button the statistics of the session will
+be uploaded to our database.
+
+Also in the right corner there is an icon providing theory for current question in order to make 
+the user even more compatible with the application
+</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>In the start of the application you will find a log in button that says "For techers"
+if you have an account you can log in and for now the only thing  that you can do
+is to add a question in the MASTER questions meaning the question in the final part.
+(In the unlockables section of the application)
+
+This Question is only in a True/false format and it will register directly in our database.
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>In this section we will discuss the acheivements / unlockables of our application:
+
+There are 4 different unlockables, each one reffering to a different category of questions:
+1) Data types, Variables and Operators
+2) Looping Statements
+3) Classes
+4) Arrays and Strings
+
+Each MASTER question is unlocked by getting 7 correct answers on the main questions.
+ Meaning 0 mistakes. Then by clicking "Check for Acheivements"  the programm checks our database 
+for completed categories. Then it unlocks the MASTER Question. It is a TRUE/FALSE question. If you answer
+correct the corresponding award is unlocked. Else you can asnwer the question again. Uppon completing all 
+throphies you have succesfully mastered the game. </value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Moving into the section "Statistics" the users can press the Load Statistics
+button in order to connect to the Database and download his/hers statistics.
+Bellow those statistics are explained:
+
+Correct -&gt; Is the total number of correct answers submited to our Database
+
+Mistake -&gt; Is the total number of false answers submited
+
+Answer/Mistake Ratio -&gt; Is the ratio of correct answers to mistakes and it 
+shows a percentage of correct answer.
+
+Categories Completed -&gt; Here the categories mentioned are only shown if 
+the user has completed a category with 7 correct answers and 0 mistakes.
+
+Total time Spent-&gt; The total amount of time (in seconds) that the user has spent
+in our application answering questions
+
+Weakest Category -&gt; Here the category with most mistakes is mentioned in order
+for the user to focus on this category and get better at is.
+
+Categories Participated -&gt; Here the categories which the user has finished 
+(meaning all the 7 questions) will be mentioned regardless of the correct or false
+answers.
+</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>     Greetings from the developers, this is an application in which you will test your knowledge and skills
+regardingthe  object-oriented programming language C#. 
+
+A brief history of the language:
+     In January 1999, Anders Hejlsberg formed a team to build a new language at the time called Cool,
+which stood for "C-like Object Oriented Language". Microsoft had considered keeping the name "Cool"
+as the final name of the language, but chose not to do so for trademark reasons. By the time the .NET
+project was publicly announced at the July 2000 Professional Developers Conference, 
+the language had been renamed C#, and the class libraries and ASP.NET runtime had been ported to C#.
+     Hejlsberg is C#'s principal designer and lead architect at Microsoft, and was previously involved
+with the design of Turbo Pascal, Embarcadero Delphi (formerly CodeGear Delphi, Inprise Delphi
+and Borland Delphi), and Visual J++. In interviews and technical papers he has stated that flaws 
+in most major programming languages drove the fundamentals of the Common Language Runtime 
+(CLR), which, in turn, drove the design of the C# language itself.
+
+     Moving forward, the purpose of this app is to make you better at C#, understand some of its basic 
+features and applications and generally get to know the fundamentals o f this language.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
