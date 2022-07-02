@@ -66,10 +66,10 @@ namespace LogismikoMain
                 labelTimer.Text = string.Format("{0}:{1}:{2}", h.ToString().PadLeft(2, '0'), m.ToString().PadLeft(2, '0'), s.ToString().PadLeft(2, '0'));
             }));  
         }
-        //START BUTTON select questions
+        //pressing start button selects questions
         private void buttonStartexc_Click(object sender, EventArgs e)
         {
-            //gets questions etc from db
+            //gets questions etc from the database
             buttonA1.Enabled = true;
             buttonA2.Enabled = true;
             buttonA3.Enabled = true;
@@ -152,7 +152,7 @@ namespace LogismikoMain
                 completed4 = true;
             }
         }
-        //NEXT BUTTON 
+        //next button
         private void Nextbutton_Click(object sender, EventArgs e)
         {           
             number++;
@@ -170,7 +170,7 @@ namespace LogismikoMain
             labelquestion.ResetText();
             Nextbutton.Enabled = false;         
         }  
-        //SUBMIT BUTTON
+        //submit button
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
             var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
