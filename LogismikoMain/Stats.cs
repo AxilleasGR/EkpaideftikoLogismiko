@@ -26,7 +26,7 @@ namespace LogismikoMain
         ArrayList catpart = new ArrayList();
         string CatCompl;       
         string miss;
-        //loads statistics from data base
+        //loads statistics from database
         private void buttonLoadStat_Click(object sender, EventArgs e)
         {
             buttonLoadStat.Enabled = false;
@@ -42,7 +42,7 @@ namespace LogismikoMain
                     labelTime.Text = $"{time} seconds spent!!!";
                 }   
             }
-            // sum of correct
+            // sum of correct answers
             NpgsqlCommand correctcomm = new NpgsqlCommand($"SELECT SUM(correct) FROM public.stats WHERE username = '{user}' ", conn);
             using (var read = correctcomm.ExecuteReader())
             {
@@ -99,7 +99,7 @@ namespace LogismikoMain
                     System.Diagnostics.Debug.WriteLine(cat.ToString());
                 }
             }
-            //select qcategory from stats where mistake in (select max(mistake) from stats where username ='admin')
+            //select qcategory from stats where mistake in (select max(mistake) from stats where username)
             //worst category
             NpgsqlCommand worsCatcomm = new NpgsqlCommand($"select qcategory, mistake from stats where username = '{user}' AND mistake = 6 or mistake = 7 ", conn);
             using (var read = worsCatcomm.ExecuteReader())

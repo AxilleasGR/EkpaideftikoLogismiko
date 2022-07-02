@@ -84,7 +84,7 @@ namespace LogismikoMain
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //checks if username exists it must NOT exist to be able to sign up
+            //checks if username exists. if username exists you must choose another one
             var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             using (var conn = new NpgsqlConnection(connString))
             {
@@ -106,7 +106,7 @@ namespace LogismikoMain
                     }
                 }
                 conn.Close();
-                //if not continue the process  
+                //if username doesnt exist continue the process  
                 var length = textNewpass.Text.Length;
                 bool passok = true;
                 if (textNewpass.Text != textNewpass1.Text)
@@ -126,15 +126,15 @@ namespace LogismikoMain
                     try
                     {
                         NpgsqlCommand command = new NpgsqlCommand("INSERT INTO " + "users(username, pwd) VALUES (:usr ,:pwd)", conn);
-                        //add parameter
+                        //add the parameter
                         command.Parameters.Add(new NpgsqlParameter("usr", NpgsqlTypes.NpgsqlDbType.Varchar));
                         command.Parameters.Add(new NpgsqlParameter("pwd", NpgsqlTypes.NpgsqlDbType.Varchar));
                         //prepare
                         command.Prepare();
-                        //add value to param
+                        //add value to parameters
                         command.Parameters[0].Value = usern;
                         command.Parameters[1].Value = pass;
-                        //ecxecutesql
+                        //ecxecute sql
                         int recordAffected = command.ExecuteNonQuery();
                         if (Convert.ToBoolean(recordAffected))
                         {
