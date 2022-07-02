@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows;
 using Npgsql;
 
 namespace LogismikoMain
@@ -29,12 +21,12 @@ namespace LogismikoMain
         {
 
         }
-        //selecting the question for DVO category
+        //selecting the question for main form
         private void buttonDVO_Click(object sender, EventArgs e)
         {
             panel1.Visible = true;
             category = "DataVarOper";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='DataVarOper'" , conn);
             using (var reader = command.ExecuteReader())
@@ -47,11 +39,11 @@ namespace LogismikoMain
             }
             conn.Close();  
         }
-        //checking if user has all 7 correct in order to unlock master question
+        //checking if user has all 7 correct in order to unlock the final question
         private void button1_Click(object sender, EventArgs e)
         {
             buttonCheck.Enabled = false;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand comm = new NpgsqlCommand($"SELECT qcategory FROM public.stats WHERE username = '{user}' AND correct =7 ", conn);
             using (var read = comm.ExecuteReader())
@@ -89,7 +81,7 @@ namespace LogismikoMain
         {
             panel1.Visible = true;
             category = "ArrayStg";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='ArrayStg'", conn);
             using (var reader = command.ExecuteReader())
@@ -115,7 +107,7 @@ namespace LogismikoMain
         {
             category = "Classes";
             panel1.Visible = true;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='Classes'", conn);
             using (var reader = command.ExecuteReader())
@@ -133,7 +125,7 @@ namespace LogismikoMain
         {
             category = "Loops";
             panel1.Visible = true;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='Loops'", conn);
             using (var reader = command.ExecuteReader())
@@ -151,11 +143,11 @@ namespace LogismikoMain
         {
             panel1.Visible = false;
         }
-        //checks if correct answer and unlocks prize for true
+        //checks if answer is correct and unlocks prize for true
         private void buttonTRUE_Click(object sender, EventArgs e)
         {
             answer = "TRUE";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT answer FROM public.final WHERE category='{category}'", conn);
             using (var reader = command.ExecuteReader())
@@ -197,11 +189,11 @@ namespace LogismikoMain
             }
             conn.Close();
         }               
-        //checks if correct answer and unlocks prize for false
+        //checks if the answer is correct and unlocks prize for false
         private void buttonFALSE_Click(object sender, EventArgs e)
         {
             answer = "FALSE";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT answer FROM public.final WHERE category='{category}'", conn);
             using (var reader = command.ExecuteReader())

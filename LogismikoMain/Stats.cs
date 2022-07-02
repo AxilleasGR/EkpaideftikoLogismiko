@@ -31,7 +31,7 @@ namespace LogismikoMain
         {
             buttonLoadStat.Enabled = false;
             //sum of time 
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand timecomm = new NpgsqlCommand($"SELECT SUM(time) FROM public.stats WHERE username = '{user}' " ,conn);
             using (var read = timecomm.ExecuteReader())

@@ -161,7 +161,7 @@ namespace LogismikoMain
                 int cor = dvO11.correct;
                 int mis = dvO11.mistake;                
                 
-                NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+                NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
                 conn.Open();
                 try
                 {                    
@@ -173,8 +173,7 @@ namespace LogismikoMain
                     cmd.Parameters.Add(new NpgsqlParameter("cat", NpgsqlTypes.NpgsqlDbType.Varchar));
                     cmd.Parameters.Add(new NpgsqlParameter("time", NpgsqlTypes.NpgsqlDbType.Real));
                     cmd.Parameters.Add(new NpgsqlParameter("user", NpgsqlTypes.NpgsqlDbType.Varchar));
-                   
-                    //prepare
+
                     cmd.Prepare();
                     //add values
                     cmd.Parameters[0].Value = cor;

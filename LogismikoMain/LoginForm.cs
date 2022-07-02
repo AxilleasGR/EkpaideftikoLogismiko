@@ -30,7 +30,7 @@ namespace LogismikoMain
         //checks if username and password matches the ones in DB
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+            var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             using (var conn = new NpgsqlConnection(connString))
             {
                 conn.Open();
@@ -85,7 +85,7 @@ namespace LogismikoMain
         private void button1_Click(object sender, EventArgs e)
         {
             //checks if username exists it must NOT exist to be able to sign up
-            var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+            var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             using (var conn = new NpgsqlConnection(connString))
             {
                 conn.Open();
@@ -162,7 +162,7 @@ namespace LogismikoMain
         private void buttonTeacherLogIN_Click(object sender, EventArgs e)
         {
            
-            var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+            var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             using (var conn = new NpgsqlConnection(connString))
             {
                 conn.Open();

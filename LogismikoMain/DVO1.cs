@@ -49,7 +49,7 @@ namespace LogismikoMain
         }
 
         private void OnTimeEvent(object sender, ElapsedEventArgs e)
-        { //how the timer works
+        { //sets the timer
             Invoke(new Action(() =>
             {
                 s += 1;
@@ -77,7 +77,7 @@ namespace LogismikoMain
             buttonSubmit.Enabled = true;
             t.Start();
             labelquestion.Text = ($"Question {number} :");                            
-                var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+                var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
                 using (var conn = new NpgsqlConnection(connString))
                 {
                     conn.Open();
@@ -173,7 +173,7 @@ namespace LogismikoMain
         //SUBMIT BUTTON
         private void buttonSubmit_Click(object sender, EventArgs e)
         {
-            var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+            var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             Nextbutton.Enabled = true;
             buttonSubmit.Enabled = false;
             using (var conn = new NpgsqlConnection(connString))
@@ -231,7 +231,7 @@ namespace LogismikoMain
             {
                 panelTheory.Visible = false;
             }
-            var connString = "Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog";
+            var connString = "Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA";
             using (var conn = new NpgsqlConnection(connString))
             {
                 conn.Open();
