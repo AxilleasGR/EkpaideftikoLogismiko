@@ -24,7 +24,7 @@ namespace LogismikoMain
         //puts question in database
         private void buttonsubmit_Click(object sender, EventArgs e)
         {
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
             conn.Open();
             try
             {
