@@ -126,7 +126,6 @@ namespace LogismikoMain
         //back button closes forms and usercontrols
         private void buttonBack_Click(object sender, EventArgs e)
         {
-            dvO11.t.Stop();
             dvO11.h = 0;
             dvO11.m = 0;
             dvO11.s = 0;
@@ -155,46 +154,7 @@ namespace LogismikoMain
 
 
             //uploading statistics every time a category is completed
-            if (DVO1.completed1 == true || DVO1.completed2 == true || DVO1.completed3 == true || DVO1.completed4 == true )
-            {
-                double atime = RandomNumberBetween(2.56, 38.15);
-                int cor = dvO11.correct;
-                int mis = dvO11.mistake;                
-                
-                NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
-                conn.Open();
-                try
-                {                    
-                    //create insert              
-                    NpgsqlCommand cmd = new NpgsqlCommand("INSERT INTO " + "stats(correct, mistake, qcategory, time, username) VALUES (:corr, :mis," + " :cat, :time, :user)", conn);
-                    //add parameters                
-                    cmd.Parameters.Add(new NpgsqlParameter("corr", NpgsqlTypes.NpgsqlDbType.Integer));
-                    cmd.Parameters.Add(new NpgsqlParameter("mis", NpgsqlTypes.NpgsqlDbType.Integer));
-                    cmd.Parameters.Add(new NpgsqlParameter("cat", NpgsqlTypes.NpgsqlDbType.Varchar));
-                    cmd.Parameters.Add(new NpgsqlParameter("time", NpgsqlTypes.NpgsqlDbType.Real));
-                    cmd.Parameters.Add(new NpgsqlParameter("user", NpgsqlTypes.NpgsqlDbType.Varchar));
-
-                    cmd.Prepare();
-                    //add values
-                    cmd.Parameters[0].Value = cor;
-                    cmd.Parameters[1].Value = mis;
-                    cmd.Parameters[2].Value = categ;
-                    cmd.Parameters[3].Value = atime;
-                    cmd.Parameters[4].Value = usr;
-                    
-                    //executesql
-                    int recordAffected = cmd.ExecuteNonQuery();
-                    if (Convert.ToBoolean(recordAffected))
-                    {
-                        MessageBox.Show("Database updated");
-                    }
-                }
-                catch ( NpgsqlException ex)
-                {
-                    MessageBox.Show(ex.ToString());
-                }
-                conn.Close();  
-            }
+   
         }
 
         private void buttonLoo_Click(object sender, EventArgs e)

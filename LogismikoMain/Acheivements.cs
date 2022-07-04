@@ -26,7 +26,7 @@ namespace LogismikoMain
         {
             panel1.Visible = true;
             category = "DataVarOper";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='DataVarOper'" , conn);
             using (var reader = command.ExecuteReader())
@@ -43,7 +43,7 @@ namespace LogismikoMain
         private void button1_Click(object sender, EventArgs e)
         {
             buttonCheck.Enabled = false;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand comm = new NpgsqlCommand($"SELECT qcategory FROM public.stats WHERE username = '{user}' AND correct =7 ", conn);
             using (var read = comm.ExecuteReader())
@@ -81,7 +81,7 @@ namespace LogismikoMain
         {
             panel1.Visible = true;
             category = "ArrayStg";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='ArrayStg'", conn);
             using (var reader = command.ExecuteReader())
@@ -107,7 +107,7 @@ namespace LogismikoMain
         {
             category = "Classes";
             panel1.Visible = true;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='Classes'", conn);
             using (var reader = command.ExecuteReader())
@@ -125,7 +125,7 @@ namespace LogismikoMain
         {
             category = "Loops";
             panel1.Visible = true;
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT question FROM public.final WHERE category='Loops'", conn);
             using (var reader = command.ExecuteReader())
@@ -147,7 +147,7 @@ namespace LogismikoMain
         private void buttonTRUE_Click(object sender, EventArgs e)
         {
             answer = "TRUE";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT answer FROM public.final WHERE category='{category}'", conn);
             using (var reader = command.ExecuteReader())
@@ -193,7 +193,7 @@ namespace LogismikoMain
         private void buttonFALSE_Click(object sender, EventArgs e)
         {
             answer = "FALSE";
-            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=axilleas1;Database=ekplog");
+            NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand command = new NpgsqlCommand($"SELECT answer FROM public.final WHERE category='{category}'", conn);
             using (var reader = command.ExecuteReader())

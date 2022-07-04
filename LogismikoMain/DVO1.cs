@@ -22,6 +22,7 @@ namespace LogismikoMain
         public int mistake = 0; 
         public static string time;        
         string answer;
+        public string categ,usr=LoginForm.user;
         public bool back = false;
         public static bool completed1 = false;
         public static bool completed2 = false;
@@ -93,7 +94,8 @@ namespace LogismikoMain
                         
                         }
                 }
-                //every if for diff category
+
+            //every if for diff category
             if (cat == 1 && number > 7)
             {
                 labelQ.Text = "You have finished all the questions, please choose another category";
@@ -105,8 +107,9 @@ namespace LogismikoMain
                 Nextbutton.Visible = false;
                 buttonSubmit.Visible = false;
                 time = labelTimer.Text;
-                t.Stop();                                       
-                completed1 = true;  
+                categ = "Data types,Variables,Operators";
+                t.Stop();
+                completed1 = true;
             }
             else if (cat == 2 && number > 14)
             {
@@ -117,8 +120,9 @@ namespace LogismikoMain
                 labelD.ResetText();
                 labelquestion.ResetText();
                 Nextbutton.Visible = false;
-                buttonSubmit.Visible = false;                
+                buttonSubmit.Visible = false;
                 time = labelTimer.Text;
+                categ = "Looping Statements";
                 t.Stop();
                 completed2 = true;
 
@@ -134,6 +138,7 @@ namespace LogismikoMain
                 Nextbutton.Visible = false;
                 buttonSubmit.Visible = false;
                 time = labelTimer.Text;
+                categ = "Classes";
                 t.Stop();
                 completed3 = true;
             }
@@ -148,9 +153,62 @@ namespace LogismikoMain
                 Nextbutton.Visible = false;
                 buttonSubmit.Visible = false;
                 time = labelTimer.Text;
+                categ = "Arrays and Strings";
                 t.Stop();
                 completed4 = true;
             }
+            if (DVO1.completed1 == true || DVO1.completed2 == true || DVO1.completed3 == true || DVO1.completed4 == true)
+            {
+                double atime = RandomNumberBetween(2.56, 38.15);
+                int cor = correct;
+                int mis = mistake;
+
+                NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
+                conn.Open();
+                try
+                {
+                    //create insert              
+                    NpgsqlCommand cmd = new NpgsqlCommand("INSERT INTO " + "stats(correct, mistake, qcategory, time, username) VALUES (:corr, :mis," + " :cat, :time, :user)", conn);
+                    //add parameters                
+                    cmd.Parameters.Add(new NpgsqlParameter("corr", NpgsqlTypes.NpgsqlDbType.Integer));
+                    cmd.Parameters.Add(new NpgsqlParameter("mis", NpgsqlTypes.NpgsqlDbType.Integer));
+                    cmd.Parameters.Add(new NpgsqlParameter("cat", NpgsqlTypes.NpgsqlDbType.Varchar));
+                    cmd.Parameters.Add(new NpgsqlParameter("time", NpgsqlTypes.NpgsqlDbType.Real));
+                    cmd.Parameters.Add(new NpgsqlParameter("user", NpgsqlTypes.NpgsqlDbType.Varchar));
+
+                    cmd.Prepare();
+                    //add values
+                    cmd.Parameters[0].Value = cor;
+                    cmd.Parameters[1].Value = mis;
+                    cmd.Parameters[2].Value = categ;
+                    cmd.Parameters[3].Value = atime;
+                    cmd.Parameters[4].Value = usr;
+                    Console.WriteLine(cor + " " + mis + " " + categ + " " + atime + " " + usr + " AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+
+                    //executesql
+                    int recordAffected = cmd.ExecuteNonQuery();
+                    if (Convert.ToBoolean(recordAffected))
+                    {
+                        MessageBox.Show("Database updated");
+                    }
+                }
+                catch (NpgsqlException ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
+                conn.Close();
+                DVO1.completed1 = false;
+                DVO1.completed2 = false;
+                DVO1.completed3 = false;
+                DVO1.completed4 = false;
+            }
+    }
+        private static readonly Random random = new Random();
+        private static double RandomNumberBetween(double minValue, double maxValue)
+        {
+            var next = random.NextDouble();
+
+            return minValue + (next * (maxValue - minValue));
         }
         //next button
         private void Nextbutton_Click(object sender, EventArgs e)
@@ -281,4 +339,5 @@ namespace LogismikoMain
             buttonA1.Enabled = false;
         }
     }
+
 }

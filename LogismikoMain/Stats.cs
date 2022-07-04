@@ -20,7 +20,7 @@ namespace LogismikoMain
             InitializeComponent();
         }
         string user = LoginForm.user;
-        string time;        
+        string time="0";        
         string corr;
         string worstcat;
         ArrayList catpart = new ArrayList();
@@ -34,11 +34,17 @@ namespace LogismikoMain
             NpgsqlConnection conn = new NpgsqlConnection("Host=localhost;Username=postgres;Password=0000;Database=AAAAAAAAAAAA");
             conn.Open();
             NpgsqlCommand timecomm = new NpgsqlCommand($"SELECT SUM(time) FROM public.stats WHERE username = '{user}' " ,conn);
+            
             using (var read = timecomm.ExecuteReader())
             {
                 while (read.Read())
                 {
                     time = read["sum"].ToString();
+                    if (time=="")
+                    {
+                        MessageBox.Show("no stats");
+                        return;
+                    }
                     labelTime.Text = $"{time} seconds spent!!!";
                 }   
             }
